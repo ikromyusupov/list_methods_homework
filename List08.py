@@ -6,4 +6,18 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    if fruits.count('apple'):
+        fruits.pop(fruits.index('apple'))
+
+    if fruits.count('apple'):
+        fruits.pop(fruits.index('apple'))
+
+    if fruits.count('apple'):
+        fruits.pop(fruits.index('apple'))
+
+    if fruits.count('apple'):
+        fruits.pop(fruits.index('apple'))
+
+    if fruits.count('apple'):
+        fruits.pop(fruits.index('apple'))
+    return fruits
